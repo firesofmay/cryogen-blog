@@ -81,12 +81,12 @@ $ cd resources/public &&  git add . && git commit -am "WIP" && git push && cd ..
 - Create the following snippet as a command deploy.sh
 
 ```bash
-#!/bin/sh
-
 echo "Deploying blog post"
-git add . && git commit -am "WIP" && git push;
+git add .
+git commit -am "WIP"
+git push
 cd resources/public &&  git add . && git commit -am "WIP" && git push && cd ../../
-open http://<YOUR-USERNAME>.github.io
+open http://firesofmay.github.io
 ```
 - Make it executable
 
@@ -102,3 +102,6 @@ $ ./deploy.sh
 
 
 Thanks to [tangrammer's instructions here](https://github.com/tangrammer/cryogen-blog/blob/master/resources/templates/README.md#instructions-to-make-changes)
+
+Reference:
+* To setup custom domain name with namecheap check [this](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) link
