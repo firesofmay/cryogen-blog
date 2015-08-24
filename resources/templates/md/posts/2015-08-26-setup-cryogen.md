@@ -106,3 +106,4 @@ $ ./deploy.sh
 ### References:
 * Thanks to [tangrammer's instructions here](https://github.com/tangrammer/cryogen-blog/blob/master/resources/templates/README.md#instructions-to-make-changes)
 * To setup custom domain name with namecheap check [this](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) link
+* If you do add custom domain name make sure you add it to `:keep-files` otherwise it'll get deleted.
