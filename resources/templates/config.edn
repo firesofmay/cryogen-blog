@@ -1,5 +1,5 @@
 {:site-title         "firesofmay"
- :author             "Mayank Jain"
+ :author             "@firesofmay"
  :description        "Firesofmay's Blog"
  :site-url           "http://firesofmay.github.io/"
  :post-root          "posts"
@@ -15,8 +15,8 @@
  :theme              "blue"
  :resources          ["img"]
  :keep-files         [".git"]
- :disqus?            false
- :disqus-shortname   ""
+ :disqus?            true
+ :disqus-shortname   "firesofmay"
  :ignored-files      [#"\.#.*" #".*\.swp$"]
  :posts-per-page     5
  :blocks-per-preview 2
