@@ -36,5 +36,4 @@ And now all I have to do is map that function onto that whole vector of maps and
  {:name "Eliot", :age 12, :school "XYZ"})
 ```
 
-Notice age has been incremented, and if school is empty it is returning a "-"
-This took me sometime to grasp but somehow I just got it. So thought i'll share it down.
+Notice age has been incremented, and if school is empty it is returning a `-`
