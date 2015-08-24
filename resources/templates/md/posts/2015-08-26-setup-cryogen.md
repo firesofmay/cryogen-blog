@@ -4,7 +4,7 @@
 
 For quite sometime I have been looking for a nice way to setup my blog. I have looked at various options but wasn't happy with any of them.
 
-My main criteria was:
+### Selection Criteria:
 - I should be able to edit it within Emacs/Another nice Markdown Editor.
 - It should be markdown based so I don't face weird editor issues.
 - Code highlighting should work for Clojure.
@@ -24,6 +24,7 @@ Even though the documentation is fairly good, I wasn't clear how to setup blog a
 
 Before you move on, make sure you have checked out the [actual documentation](http://cryogenweb.org/docs/getting-started.html) to get an idea of what we are going to do and if this setup is suitable for you or not.
 
+### Setup Steps:
 - Go to github and create one repo called `cryogen-blog`.
 - Open up commandline, switch to your projects directory and run the following:
 
@@ -77,6 +78,8 @@ $ git push -u origin master
 $ git add . && git commit -am "WIP" && git push
 $ cd resources/public &&  git add . && git commit -am "WIP" && git push && cd ../../
 ```
+
+### Automate the deployment
 - You can make that as a command as well.
 - Create the following snippet as a command deploy.sh
 
@@ -100,8 +103,6 @@ $ chmod +x deploy.sh
 $ ./deploy.sh
 ```
 
-
-Thanks to [tangrammer's instructions here](https://github.com/tangrammer/cryogen-blog/blob/master/resources/templates/README.md#instructions-to-make-changes)
-
-Reference:
+### References:
+* Thanks to [tangrammer's instructions here](https://github.com/tangrammer/cryogen-blog/blob/master/resources/templates/README.md#instructions-to-make-changes)
 * To setup custom domain name with namecheap check [this](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) link
