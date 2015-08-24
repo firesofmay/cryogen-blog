@@ -22,7 +22,9 @@ And I think finally [Cryogen](http://cryogenweb.org/)/Github/Emacs/[MacDown](mac
 
 Even though the documentation is fairly good, I wasn't clear how to setup blog and repo together. I'll just assume you want to setup it as [username.github.io](username.github.io).
 
-- Go to github and create one repo called cryogen-blog.
+Before you move on, make sure you have checked out the [actual documentation](http://cryogenweb.org/docs/getting-started.html) to get an idea of what we are going to do and if this setup is suitable for you or not.
+
+- Go to github and create one repo called `cryogen-blog`.
 - Open up commandline, switch to your projects directory and run the following:
 
 ```bash
@@ -55,7 +57,7 @@ $ git remote add origin git@github.com:<YOUR-USERNAME>/cryogen-blog.git
 $ git push -u origin master
 ```
 - But this will only push a new repo, this does not create any blog.
-- To create the blog, create another repo with same name as your username, i.e. `username.github.io`
+- To create the blog, go to github again & create another repo with same name as your username, i.e. `username.github.io`
 - Run
 
 ```bash
