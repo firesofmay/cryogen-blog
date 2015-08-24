@@ -5,4 +5,5 @@
 
 ## Write something about something
 
+![Image 1](/img/clojure-logo.png)
 wow wow wow
