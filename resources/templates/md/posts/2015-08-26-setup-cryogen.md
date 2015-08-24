@@ -74,6 +74,27 @@ $ git add . && git commit -am "WIP" && git push
 $ cd resources/public &&  git add . && git commit -am "WIP" && git push && cd ../../
 ```
 - You can make that as a command as well.
+- Create the following snippet as a command deploy.sh
+
+```bash
+#!/bin/sh
+
+echo "Deploying blog post"
+git add . && git commit -am "WIP" && git push;
+cd resources/public &&  git add . && git commit -am "WIP" && git push && cd ../../
+open http://<YOUR-USERNAME>.github.io
+```
+- Make it executable
+
+```bash
+$ chmod +x deploy.sh
+```
+
+- Make changes and deploy!
+
+```bash
+$ ./deploy.sh
+```
 
 
 Thanks to [tangrammer's instructions here](https://github.com/tangrammer/cryogen-blog/blob/master/resources/templates/README.md#instructions-to-make-changes)
