@@ -84,6 +84,8 @@ $ cd resources/public &&  git add . && git commit -am "WIP" && git push && cd ..
 - Create the following snippet as a command deploy.sh
 
 ```bash
+#!/bin/sh
+
 echo "Deploying blog post"
 git add .
 git commit -am "WIP"
