@@ -2,10 +2,10 @@
  :layout :post
  :tags ["github"]}
 
-For quite sometime I have been looking for a nice way to setup my blog. I have looked at various options but wasn't happy with any of those.
+For quite sometime I have been looking for a nice way to setup my blog. I have looked at various options but wasn't happy with any of them.
 
 My main criteria was:
-- I should be able to edit it within Emacs/Or another nice Markdown Editor.
+- I should be able to edit it within Emacs/Another nice Markdown Editor.
 - It should be markdown based so I don't face weird editor issues.
 - Code highlighting should work for Clojure.
 - It should work on mobile/desktop nicely.
@@ -15,6 +15,8 @@ My main criteria was:
 - Have some control on the setup but it should just work.
 - Should have an option to add comments.
 - It would be awesome if I can hack it if I need to.
+- I should be able to point it to my custom domain.
+- It should be under version control.
 
 And I think finally [Cryogen](http://cryogenweb.org/)/Github/Emacs/[MacDown](macdown.uranusjr.com) has nailed it for me.
 
